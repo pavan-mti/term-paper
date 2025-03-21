@@ -1,0 +1,13 @@
+2025-03-20 01:42:52,633 - root - INFO - Initializing SentenceTransformer model...
+2025-03-20 01:42:52,633 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-20 01:42:52,633 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-20 01:42:57,702 - root - INFO - SentenceTransformer model initialized successfully!
+2025-03-20 01:42:57,702 - root - INFO - Starting script...
+2025-03-20 01:42:57,702 - root - INFO - Submitted Title: A Tribute to Mathurthi
+2025-03-20 01:42:57,702 - root - INFO - Fetching top results for query: 'A Tribute to Mathurthi'...
+2025-03-20 01:42:57,702 - scholarly - INFO - Getting https://scholar.google.com/scholar?hl=en&q=A%20Tribute%20to%20Mathurthi&as_vis=0&as_sdt=0,33
+2025-03-20 01:43:01,290 - httpx - INFO - HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=A%20Tribute%20to%20Mathurthi&as_vis=0&as_sdt=0,33 "HTTP/1.1 200 OK"
+2025-03-20 01:43:01,425 - root - INFO - No more results found.
+2025-03-20 01:43:01,425 - root - INFO - Fetched 0 results.
+2025-03-20 01:43:01,425 - root - INFO - Analyzing uniqueness of the title...
+2025-03-20 01:43:01,425 - root - INFO - No search results found.
